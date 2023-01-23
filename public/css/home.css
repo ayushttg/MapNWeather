@@ -1,0 +1,41 @@
+body,html{
+    margin: 0;
+}
+body{
+    background-color: #000700;
+}
+#map
+{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    transition: 0.7s;
+}
+#map:hover{
+    border-bottom: 2px solid white;
+}
+#ip
+{
+    background-color: #000700;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    height: 30px;
+    font-size: 25px;
+    width: 30%;
+    position: absolute;
+    font-weight: 300;
+    left: 35%;
+    top: 7.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+input:focus{
+    outline: none;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1,h2{
+    margin: 0;
+}
